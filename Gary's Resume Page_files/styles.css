@@ -1,13 +1,12 @@
 body {
   font-family: "Helvetica", sans-serif;
-  width: 960px;
+  width: auto;
   margin: 10px auto;
 }
 
 h1 {
   font-size:20px;
-  float: left;
-  border-bottom: solid 4px gray;
+  border-bottom: solid 3px gray;
   padding-bottom: 8px;
 }
 
@@ -26,7 +25,25 @@ p1 {
   font-size: 12px;
   font-weight: lighter;
 }
+
+.button {
+  padding:5px;
+  background-color: #dcdcdc;
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:none;
+}
+/* For devices 400px and smaller: */
+/*@media screen and (max-width: 400px) {*/
+/*.img-circle {*/
+      /*border-radius: 50%;*/
+      /*width: 50px;*/
+  /*}}*/
+
+/* For devices 400px and larger: */
+/*@media screen and (min-width: 400px) {*/
 .img-circle {
       border-radius: 50%;
-      width: 150px;
+      width: 125px;
   }
+/*}*/
